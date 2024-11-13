@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles/site.css">
+
+    <title>Contact</title>
+</head>
+
+<body>
+
+    <dialog id="contact-modal" class="popup">
+        <section>
+            <h3>I am looking for Summer 2025 Opportunities!</h3>
+            <p>Feel free to contact me for potential openings or if you want to chat about NYC cafe recommendations!</p>
+        </section>
+        <button id="accept-modal" class="button">Yay!</button>
+    </dialog>
+
+    <!-- For narrow screen -->
+    <div id="maincontact">
+        <div id="dropdown" class="heading">
+            <section class="subhead">
+                <h2>Brittany Sun</h2>
+                <!-- Source: https://www.w3schools.com/csSref/sel_class.php -->
+                <h4 class="readable"><em>Student. Avid swimmer</em></h4>
+            </section>
+            <div class="subheading2">
+
+                <button id="hamburger-button" class="hamburger">Contact Me</button>
+                <nav id="nav-menu" class="hidden">
+                    <menu>
+                        <li><a href="index.html">About Me</a></li>
+                        <li><a href="experiences.html">Experiences</a></li>
+                    </menu>
+                </nav>
+            </div>
+        </div>
+        <!-- For wide screen -->
+    <div class="headingwide">
+        <section class="subhead">
+            <h2>Brittany Sun</h2>
+            <!-- Source: https://www.w3schools.com/csSref/sel_class.php -->
+            <h3 class="readable "><em>Student. Avid swimmer</em></h3>
+        </section>
+        <nav>
+            <menu>
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="experiences.html">My Experiences</a></li>
+                <li><a id="contact" href="contact.html">Contact Me</a></li>
+            </menu>
+        </nav>
+    </div>
+</div>
+
+
+    <main id="maincontact2">
+        <h3>
+            <!-- Source: https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto -->
+            Reach out to me at <a href=mailto:bs835@cornell.edu> bs835@cornell.edu</a>
+        </h3>
+
+        <ul>
+            <!-- Source: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul -->
+            <!-- Source: https://www.w3schools.com/csSref/sel_class.php -->
+            <li class="listing">
+                Check out my articles on <a href="https://medium.com/@brittanyssun410">Medium</a>
+            </li>
+            <li class="listing">
+                Connect with me! <a href="https://www.linkedin.com/in/brittanys10">LinkedIn</a>
+            </li>
+            <li class="listing">
+                See my projects on <a href="https://github.com/Bsun0410">Github</a>
+            </li>
+        </ul>
+
+        <picture class="resizeImage">
+            <!-- Source: (original work) Brittany Sun -->
+            <img src="images/BSun3.jpg" alt="Headshot of Brittany">
+        </picture>
+    </main>
+
+    <script src="scripts/jquery-3.7.1.js"></script>
+    <script src="scripts/contact-modal.js"></script>
+</body>
+
+</html>
+<!-- Source: (original work) Brittany Sun -->
